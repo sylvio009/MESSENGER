@@ -1,6 +1,6 @@
 // --- CONFIGURATION SUPABASE ---
-const SUPABASE_URL = 'VOTRE_URL_SUPABASE';
-const SUPABASE_KEY = 'VOTRE_CLE_ANON_SUPABASE';
+const SUPABASE_URL = 'https://wdcokszrkkppgyubmchd.supabase.co/rest/v1/';
+const SUPABASE_KEY = 'sb_publishable_v6JCYag-YsJGjQuZwaRWIg_43-qK38D';
 const supabaseClient = supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
 
 // --- ÉTAT GLOBAL ---
