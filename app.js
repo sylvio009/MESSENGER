@@ -308,9 +308,9 @@ function setupRealtime() {
 }
 
 function escapeHTML(str) {
-    return str.replace(/[&<>'"]/g, tag => ({
-        '&': '&', '<': '<', '>': '>', "'": ''', '"': '"'
-    }[tag]));
+    const div = document.createElement('div');
+    div.textContent = str;
+    return div.innerHTML;
 }
 
 // Restauration de session au rechargement de la page
