@@ -1,8 +1,8 @@
 // ============================================================================
 // CONFIGURATION SUPABASE (À REMPLACER PAR VOS CLÉS DE PROJET SUPABASE)
 // ============================================================================
-const SUPABASE_URL = "REMPLACER_PAR_VOTRE_SUPABASE_URL";
-const SUPABASE_ANON_KEY = "REMPLACER_PAR_VOTRE_SUPABASE_ANON_KEY";
+const SUPABASE_URL = "https://wdcokszrkkppgyubmchd.supabase.co/rest/v1/";
+const SUPABASE_ANON_KEY = "sb_publishable_v6JCYag-YsJGjQuZwaRWIg_43-qK38D";
 
 let db = null;
 if (SUPABASE_URL.startsWith("http") && SUPABASE_ANON_KEY.length > 20) {
