@@ -8,6 +8,7 @@ let authMode = 'login'; // 'login' ou 'register'
 let currentUser = null;
 let selectedContact = null;
 
+
 // --- GESTION DE L'AUTHENTIFICATION ---
 function switchAuthTab(mode) {
   authMode = mode;
